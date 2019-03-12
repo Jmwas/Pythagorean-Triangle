@@ -4,13 +4,13 @@
 play = input("Do you want to proceed? Y/N: ")
 
 while play != 'Y' or play == 'y':
-    a = input("Please the opposite value: ")
+    a = input("Please enter the opposite value: ")
     print("you entered " + a)
 
-    b = input("Please the adjacent value: ")
+    b = input("Please enter the adjacent value: ")
     print("you entered " + b)
 
-    c = input("Please the hypotenuse value: ")
+    c = input("Please enter the hypotenuse value: ")
     print("you entered " + c)
 
     if int(a) ** 2 + int(b) ** 2 == int(c) ** 2:
