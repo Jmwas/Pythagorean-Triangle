@@ -1,5 +1,4 @@
-# A program that allows the user to input the sides of any triangle, and then
-# return whether the triangle is a Pythagorean Triple or not
+#loop version
 start = True
 count = 0
 
